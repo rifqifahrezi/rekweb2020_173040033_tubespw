@@ -1,0 +1,163 @@
+body{
+	font-family: verdana;
+	background-image: url(../image/bg1.png);
+	font-style: 14px;
+}
+
+h1{
+	font-family: georgia;
+	font-style: 40px;
+	font-style: italic;
+	text-align: center;
+}
+
+h3{
+	font-variant: small-caps;
+	font-size: 48px;
+}
+
+h5{
+	font-style: italic;
+	font-style: 14px;
+}
+
+#container{
+	width: 900px;
+	margin: auto;
+	background-color: #fff;
+	box-sizing: border-box;
+}
+
+.header{
+	background-color: navajowhite;
+	color: teal;
+	width: 900px;
+	height: 80px;
+	line-height: 80px;
+	border-bottom: 2px solid salmon;
+}
+
+.link{
+	background-color: aquamarine;
+	width: 900px;
+	height: 50px;
+	display: inline-block;
+	border-bottom: 3px solid plum;
+}
+
+.link p{
+	display: inline-block;
+	padding: 0 5px;
+}
+
+.link p{
+	color: darkcyan;
+	font-weight: bold;
+}
+
+.cover{
+	height: 250px;
+	background-image: url(../image/cover.png);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: 0 -50px;
+	border-bottom: 3px solid plum;
+}
+
+img{
+	border: 2px solid salmon;
+	padding: 4px;
+}
+
+.main{
+	width: 500px;
+	padding: 15px;
+	box-sizing: border-box;
+	float: right;
+	margin-top: -40px;
+	padding-left: 40px;
+}
+
+.main .profil{
+	font-size: 11px;
+	margin-top: -40px;
+
+}
+
+.main .profil a{
+	color: darkcyan;
+	text-decoration: none;
+}
+
+.main ul li a{
+	font-size: 30px;
+	font-variant: small-caps;
+	text-decoration: none;
+	font-weight: bold;
+	color: aquamarine;
+}
+
+.main ul li a:hover{
+	font-variant: small-caps;
+	color: darkcyan;
+}
+
+.sidebar{
+	padding: 10px;
+	width: 350px;
+	float: left;
+	margin-right: 20px;
+	border-right: 2px solid salmon;
+}
+
+.sidebar h5{
+	margin-left: 20px;
+}
+
+.sidebar img{
+	width: 200px;
+	height: 280px;
+	padding: 5px;
+	margin-left: 20px;
+}
+
+.sidebar ul li{
+	font: 14px/18px arial ;
+	font-variant: small-caps;
+}
+
+#footer{
+	background-color: navajowhite;
+	padding: 10px;
+}
+
+#footer .copy{
+	color: #333;
+	text-align: center;
+	font-size: 12px;
+	font-weight: bold;
+}
+
+#footer a{
+	color: darkcyan;
+	text-decoration: none;
+}
+
+
+
+
+
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+} 

@@ -1,0 +1,67 @@
+.clear{
+	clear: both;
+}
+
+.gambar, .desc{
+	width: 250px;
+	height: 200px;
+	float: left;
+	text-align: center;	
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #eaeaea;
+}
+
+.container{
+	position: relative;
+	background-color: #d8d8d8;
+	width: 600px;
+	border-radius: 5px;
+	padding: 15px 15px;
+	margin: 0 auto;
+	box-shadow: 0 0 1px 0 #000;
+}
+
+.header{
+	font-family: "arial narrow";
+	font-size: 40px;
+	text-align: center;
+}
+
+.content{
+	padding: 15px;
+	margin-bottom: 15px;
+	background-color: #fff;
+	border-bottom: 3px #300 solid;
+	border-radius: 5px;
+}
+
+/*gambar*/
+
+.gambar img{
+	width: 200px;
+	border-radius: 50%;
+}
+
+/*deskripsi*/
+
+.desc{
+	font-family: "arial narrow";
+	margin : auto;
+	}
+
+.nama a{
+	font-family: "arial narrow";
+	color: cyan;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 34px;
+	text-align: center;
+}
+
+.nama a:hover{
+	color: lime;
+}

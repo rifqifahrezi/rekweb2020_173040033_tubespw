@@ -1,0 +1,43 @@
+body{
+	background-color: #eaeaea;
+}
+
+.container{
+	margin: auto;
+}
+
+.content{
+	margin: auto;
+	border: 4px #d8d8d8 solid;
+	background-color: #fff;
+	padding: 15px;
+	width: 400px;
+	text-align: center;
+}
+
+#user, #pass{
+	width: 200px;
+	height: 20px;
+	margin: 20px;
+	border: 2px #d8d8d8 solid;
+}
+
+label{
+	font-weight: bold;
+	font-size: 18px;
+}
+
+.header{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	color: #144;
+}
+
+button{
+	background-color: #21c;
+	color: #fff;
+	width: 70px;
+	height: 35px;
+	border-radius: 13%;
+}
